@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title> Bucket List </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<center>
+		<h3 style="margin-top: 20px; margin-bottom: 20px;"> Bucket List </h3>
+
+		<div id="rows">
+			<input type="text" placeholder="Item Name" id="B_List">
+			<button onclick="submit();" id="submit_button"> Submit </button>
+			<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			
+			<hr>
+			<div id="display_item_name"></div>
+			<hr>
+
+			<div id="Show1">
+				<h3 id="hd1"> Bucket List</h3>
+				<button onclick="show();" id="show"> Show </button>
+				<p id="p1"></p>
+			</div>
+
+			<hr>
+			<button onclick="sorting();" id="sort_button"> Sort </button>
+
+			<div id="sorted"></div>
+		</div>
+
+		<hr>
+	</center>
+</body>
+</html>
